@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;       
+}
+
+.grid-container {
+    width: 1920px;
+    height: 750px;
+    padding: 82px 390px;
+
+}
+
+.grid-elem {
+
+}
