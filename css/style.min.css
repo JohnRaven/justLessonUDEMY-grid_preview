@@ -14,8 +14,8 @@
   display: grid;
   -ms-grid-columns: (240px)[4];
       grid-template-columns: repeat(4, 240px);
-  -ms-grid-rows: (260px)[2];
-      grid-template-rows: repeat(2, 260px);
+  -ms-grid-rows: (minmax(260px, auto))[2];
+      grid-template-rows: repeat(2, minmax(260px, auto));
   grid-auto-rows: 260px;
   gap: 60px;
 }
